@@ -1,0 +1,149 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bf513276-35b6-4c64-961b-f9ab0be6dcba")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 81.28 25.4)
+		(size 12.7 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2aa74d1e-b615-4866-a6e6-81b2501e58da")
+		(property "Sheetname" "LMR516x5 Converter"
+			(at 81.28 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lmr516x5_converter.kicad_sch"
+			(at 81.28 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" output
+			(at 93.98 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed013376-674c-4598-b867-6b1eab7d41b7")
+		)
+		(pin "Vin" input
+			(at 81.28 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bc219ee-1d95-4eb5-981c-1c25ce8404a2")
+		)
+		(pin "GND" input
+			(at 81.28 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b040f783-be26-4b6a-85cb-38b6916acef0")
+		)
+		(instances
+			(project "project-hw-60v-dcdc"
+				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 26.67)
+		(size 13.97 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dde5d689-4319-409d-aa78-75221c87ecc9")
+		(property "Sheetname" "Reverse Polarity Protection"
+			(at 37.592 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reverse_polarity_protection.kicad_sch"
+			(at 18.288 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 53.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20568ccb-60ec-4cc2-bee5-79b539303164")
+		)
+		(pin "GND" input
+			(at 39.37 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3abe4e10-6cd2-4bb0-ae82-21b5915a2243")
+		)
+		(pin "IN" input
+			(at 39.37 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74f5be20-3d6c-4e01-9337-1abc9e01cdb6")
+		)
+		(instances
+			(project "project-hw-60v-dcdc"
+				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

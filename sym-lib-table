@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TI_LMR516x5")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Regulator_Switching/TI_LMR516x5.kicad_sym")(options "")(descr ""))
+  (lib (name "Toshiba_SSM3J328R")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/MOSFET/Toshiba_SSM3J328R.kicad_sym")(options "")(descr ""))
+)
