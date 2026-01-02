@@ -3,4 +3,5 @@
   (lib (name "SOT")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/SOT.pretty")(options "")(descr ""))
   (lib (name "Inductor")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/Inductor.pretty")(options "")(descr ""))
   (lib (name "SMD")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/SMD.pretty")(options "")(descr ""))
+  (lib (name "Connector_SolderPad")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/Connector_SolderPad.pretty")(options "")(descr ""))
 )
