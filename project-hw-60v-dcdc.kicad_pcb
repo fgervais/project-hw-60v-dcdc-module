@@ -148,7 +148,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 0 2.3 90)
+			(at 3 -2.25 180)
 			(layer "F.Fab")
 			(uuid "12fa2e5b-b88c-4096-8d27-0c99a1ad6e6f")
 			(effects
@@ -362,7 +362,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at 0 1 90)
 			(layer "F.Fab")
 			(uuid "4a50d7d7-6ba1-432d-be43-f448e4c02945")
 			(effects
@@ -578,7 +578,7 @@
 			)
 		)
 		(property "Value" "10uF 100V"
-			(at 0 2.3 90)
+			(at 3 2.75 180)
 			(layer "F.Fab")
 			(uuid "2f056ea5-709f-4c54-aeff-15963caffe64")
 			(effects
@@ -792,7 +792,7 @@
 			)
 		)
 		(property "Value" "LMR516x5"
-			(at 0 3 0)
+			(at 0.5 5.5 90)
 			(layer "F.Fab")
 			(uuid "03f672fd-6c03-447b-9e0e-86cebc221de0")
 			(effects
@@ -1087,8 +1087,9 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 0 2.3 90)
+			(at -1 -2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4130b16e-9e9a-41e3-bc19-23ac6090c37b")
 			(effects
 				(font
@@ -1303,6 +1304,7 @@
 			(at 0 3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "09c81cf3-28b4-45af-b347-589695377a7a")
 			(effects
 				(font
@@ -1359,6 +1361,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8faafee5-f648-4d0b-97bb-1581d350eb52")
 			(effects
 				(font
@@ -1433,6 +1436,7 @@
 			(at 0 3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "88c8cf55-e061-4393-b9a5-70e98bc6089f")
 			(effects
 				(font
@@ -1489,6 +1493,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "42f9d339-7dac-49a8-a979-f08b6a43f700")
 			(effects
 				(font
@@ -1563,6 +1568,7 @@
 			(at 0 3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "67e3a65a-2b9e-413b-89ea-858fb4f09038")
 			(effects
 				(font
@@ -1619,6 +1625,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "53a8eb04-7adc-49ec-98d3-ef3ec1556308")
 			(effects
 				(font
@@ -1691,7 +1698,7 @@
 			)
 		)
 		(property "Value" "MM5Z5V1T5GF"
-			(at 0 2 90)
+			(at -2 -4.75 180)
 			(layer "F.Fab")
 			(uuid "5ffa1406-461f-4d86-b110-86d20ab106fa")
 			(effects
@@ -1918,6 +1925,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "67cd8cc5-20f1-442d-a050-62106df1fdc2")
 			(effects
 				(font
@@ -2197,7 +2205,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 0 4 0)
+			(at 3.75 -2.25 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "45aa1496-83d1-4a73-92b6-1a39e299ba7d")
@@ -2397,7 +2405,7 @@
 			)
 		)
 		(property "Value" "Q_Toshiba_SSM3J351R"
-			(at 0 3 0)
+			(at 2.25 -6 90)
 			(layer "F.Fab")
 			(uuid "d2c8fd46-acb0-4963-8354-aaf1279135f8")
 			(effects
@@ -2661,7 +2669,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 0)
+			(at 1.25 -1.25 0)
 			(layer "F.Fab")
 			(uuid "f969c84b-806c-4cb0-b896-5b6137aa6fa1")
 			(effects
@@ -2874,8 +2882,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+		(property "Value" "1uF 100V"
+			(at 5 0 90)
 			(layer "F.Fab")
 			(uuid "32e3955b-20b0-40b3-b616-95ba5f1a770a")
 			(effects
@@ -2911,7 +2919,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C1608X7R2A105K080AC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3091,6 +3099,7 @@
 			(at 0 3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7040261d-aa09-44a8-b21d-976f2577c5e3")
 			(effects
 				(font
@@ -3147,6 +3156,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2efc46e0-cd05-41a4-b163-66c196c1d046")
 			(effects
 				(font
@@ -3219,8 +3229,9 @@
 			)
 		)
 		(property "Value" "10uF 100V"
-			(at 0 2.3 90)
+			(at 0 3.25 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "362712dd-3c69-42ce-aca0-b6a0800f66c6")
 			(effects
 				(font
@@ -3433,7 +3444,7 @@
 			)
 		)
 		(property "Value" "Vchoice"
-			(at 0 1.43 90)
+			(at 1 1.25 90)
 			(layer "F.Fab")
 			(uuid "2bb2807a-305b-4e13-b4f7-0ab47e4d6800")
 			(effects
