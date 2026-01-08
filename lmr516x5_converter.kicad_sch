@@ -1132,7 +1132,7 @@
 		)
 		(uuid "f5dd4f90-bebb-47d8-bd45-1704a3a38646")
 	)
-	(text "Just one of these entry capacitors seem be enough\naccording to the datasheet."
+	(text "Just one of these 10uF entry capacitors seem be enough\naccording to the datasheet."
 		(exclude_from_sim no)
 		(at 36.83 53.594 0)
 		(effects
@@ -1573,7 +1573,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2d28b44-9847-4863-bdb5-dd72b8bfa847")
 		(property "Reference" "C3"
 			(at 81.28 39.3762 0)
@@ -1584,7 +1583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF 100V"
 			(at 81.28 41.9162 0)
 			(effects
 				(font
@@ -1611,13 +1610,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 40.64 0)
+		(property "Description" "C1608X7R2A105K080AC"
+			(at 90.932 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
