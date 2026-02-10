@@ -1,5 +1,20 @@
 # 4.3V to 60V input / 0.8V to 30V output switching converter
 
+## Switch node analysis
+
+![Overview](assets/img/sw_node_overview.jpg)
+
+50 ohms series termination at the SW node.
+
+![Closeup](assets/img/sw_node_closeup.jpg)
+
+### Switch node
+
+| Input Voltage | Waveform | Rising edge |
+|---------------|----------|-------------|
+| 10V           | ![Waveform](assets/img/sw_node_10V_400mA/DS2_QuickPrint96.png) | ![Rising](assets/img/sw_node_10V_400mA/DS2_QuickPrint97.png) |
+| 20V           | ![Waveform](assets/img/sw_node_20V_400mA/DS2_QuickPrint98.png) | ![Rising](assets/img/sw_node_20V_400mA/DS2_QuickPrint99.png) |
+| 48V           | ![Waveform](assets/img/sw_node_48V_500mA/DS2_QuickPrint100.png) | ![Rising](assets/img/sw_node_48V_500mA/DS2_QuickPrint102.png) |
 
 ## Output analysis
 
