@@ -1,6 +1,17 @@
 # 4.3V to 60V input / 0.8V to 30V output switching converter
 
-## Switching converter analysis
+- [PCB v1.0.0-5-g07f53f4](#pcb-v100-5-g07f53f4)
+  - [Switching converter analysis](#switching-converter-analysis)
+    - [Switch node](#switch-node)
+  - [Output (5V, 2x 10uF 50V output capacitors)](#output-5v-2x-10uf-50v-output-capacitors)
+  - [Output (5V, 2x 22uF 16V output capacitors)](#output-5V-2x-22uF-16V-output-capacitors)
+- [PCB v1.0.0-5-g07f53f4 (hack1)](#pcb-v100-5-g07f53f4-hack1)
+  - [Switching converter analysis](#switching-converter-analysis-lmr51625)
+  - [Output (5V, 2x 22uF 16V output capacitors)](#output-5V-lmr51625-2x-22uF-16V-output-capacitors)
+
+## PCB v1.0.0-5-g07f53f4
+
+### Switching converter analysis
 
 ![Overview](assets/img/sw_node_overview.jpg)
 
@@ -8,7 +19,7 @@
 
 ![Closeup](assets/img/sw_node_closeup.jpg)
 
-### Switch node
+#### Switch node
 
 | Input Voltage | Waveform | Rising edge |
 |---------------|----------|-------------|
@@ -16,19 +27,19 @@
 | 20V           | ![Waveform](assets/img/sw_node_20V_400mA/DS2_QuickPrint98.png) | ![Rising](assets/img/sw_node_20V_400mA/DS2_QuickPrint99.png) |
 | 48V           | ![Waveform](assets/img/sw_node_48V_500mA/DS2_QuickPrint100.png) | ![Rising](assets/img/sw_node_48V_500mA/DS2_QuickPrint102.png) |
 
-### Output (5V, 2x 10uF 100V output capacitors)
+### Output (5V, 2x 10uF 50V output capacitors)
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
-| 10V           | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint129.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint130.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint131.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint133.png) |
-| 20V           | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint134.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint135.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint136.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint137.png) |
-| 48V           | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint138.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint139.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint140.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint141.png) |
+| 10V           | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint129.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint130.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint131.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint133.png) |
+| 20V           | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint134.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint135.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint136.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint137.png) |
+| 48V           | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint138.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint139.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint140.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint141.png) |
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
-| 10V           | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint143.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint144.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint145.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint146.png) |
-| 20V           | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint151.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint151.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint153.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint154.png) |
-| 48V           | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint1.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint2.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint3.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint4.png) |
+| 10V           | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint143.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint144.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint145.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint146.png) |
+| 20V           | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint151.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint151.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint153.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint154.png) |
+| 48V           | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint1.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint2.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint3.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint4.png) |
 
 #### Noise
 
@@ -60,19 +71,19 @@
 | 20V           | 22.80 mV (0.46%) | 24.40 mV (0.49%) | 19.60 mV (0.39%) | 19.20 mV (0.38%) |
 | 48V           | 23.60 mV (0.47%) | 26.20 mV (0.52%) | 21.00 mV (0.42%) | 21.20 mV (0.42%) |
 
-### Output (24V, 2x 10uF 100V output capacitors)
+### Output (24V, 2x 10uF 50V output capacitors)
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
-| 10V           | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V/DS2_QuickPrint.png) |
-| 20V           | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V/DS2_QuickPrint.png) |
-| 48V           | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V/DS2_QuickPrint.png) |
+| 10V           | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint.png) |
+| 20V           | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V/DS2_QuickPrint.png) |
+| 48V           | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V/DS2_QuickPrint.png) |
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
-| 10V           | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_10V_noise/DS2_QuickPrint.png) |
-| 20V           | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_20V_noise/DS2_QuickPrint.png) |
-| 48V           | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_100V/input_48V_noise/DS2_QuickPrint.png) |
+| 10V           | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V_noise/DS2_QuickPrint.png) |
+| 20V           | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_20V_noise/DS2_QuickPrint.png) |
+| 48V           | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_48V_noise/DS2_QuickPrint.png) |
 
 #### Noise
 
@@ -83,33 +94,42 @@
 | 48V           |  mV (%) |  mV (%) |  mV (%) |  mV (%) |
 
 
+## PCB v1.0.0-5-g07f53f4 (hack1)
 
+### Switching converter analysis (LMR51625)
 
+![Overview](assets/img/hack1/sw_node_overview.jpg)
 
+50 ohms series termination at the SW node.
 
+![Closeup](assets/img/hack1/sw_node_closeup.jpg)
 
+#### Switch node
 
+| Input Voltage | Waveform | Rising edge |
+|---------------|----------|-------------|
+| 10V           | ![Waveform](assets/img/hack1/sw_node_10V_400mA/DS2_QuickPrint33.png) | ![Rising](assets/img/hack1/sw_node_10V_400mA/DS2_QuickPrint34.png) |
+| 20V           | ![Waveform](assets/img/hack1/sw_node_20V_400mA/DS2_QuickPrint35.png) | ![Rising](assets/img/hack1/sw_node_20V_400mA/DS2_QuickPrint36.png) |
+| 48V           | ![Waveform](assets/img/hack1/sw_node_48V_500mA/DS2_QuickPrint37.png) | ![Rising](assets/img/hack1/sw_node_48V_500mA/DS2_QuickPrint38.png) |
 
+### Output (5V, LMR51625, 2x 22uF 16V output capacitors)
 
+| Input Voltage | No Load | 50 mA | 500 mA | 1 A |
+|---------------|---------|-------|--------|-----|
+| 10V           | ![Waveform](assets/img/output_5V_22uF_16V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_10V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_10V/DS2_QuickPrint.png) |
+| 20V           | ![Waveform](assets/img/output_5V_22uF_16V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_20V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_20V/DS2_QuickPrint.png) |
+| 48V           | ![Waveform](assets/img/output_5V_22uF_16V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_48V/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_48V/DS2_QuickPrint.png) |
 
+| Input Voltage | No Load | 50 mA | 500 mA | 1 A |
+|---------------|---------|-------|--------|-----|
+| 10V           | ![Waveform](assets/img/output_5V_22uF_16V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_10V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_10V_noise/DS2_QuickPrint.png) |
+| 20V           | ![Waveform](assets/img/output_5V_22uF_16V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_20V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_20V_noise/DS2_QuickPrint.png) |
+| 48V           | ![Waveform](assets/img/output_5V_22uF_16V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_48V_noise/DS2_QuickPrint.png) | ![Waveform](assets/img/output_5V_22uF_16V/input_48V_noise/DS2_QuickPrint.png) |
 
+#### Noise
 
-## Output analysis
-
-### Probe setup
-
-<img src="assets/img/probe_overview.jpg" alt="probe overview"/>
-
-Output capacitors -> 1uF capacitor -> 10 cm RG316 coax -> 50 ohms feed through termination
-
-<img src="assets/img/probe_zoom.jpg" alt="probe zoom"/>
-
-### 5V output / ~Max current
-
-| Input voltage (V) | Current (A) | Temperature (°C)                                   | Noise (mVp-p) | Noise (%) | | |
-|-------------------|-------------|----------------------------------------------------|---------------|-----------|-|-|
-| 8                 | 2           | [59.8](assets/img/noise_5V/temperature_8V2A.jpg)   | 40            | 0.8       |![capture](assets/img/noise_5V/DS2_QuickPrint51.png)|![capture](assets/img/noise_5V/DS2_QuickPrint52.png)|
-| 10                | 2           | [60.8](assets/img/noise_5V/temperature_10V2A.jpg)  | 42.4          | 0.848     |![capture](assets/img/noise_5V/DS2_QuickPrint53.png)|![capture](assets/img/noise_5V/DS2_QuickPrint54.png)|
-| 20                | 1.5         | [62](assets/img/noise_5V/temperature_20V15A.jpg)   | 66.4          | 1.328     |![capture](assets/img/noise_5V/DS2_QuickPrint55.png)|![capture](assets/img/noise_5V/DS2_QuickPrint56.png)|
-| 24                | 1.2         | [61.8](assets/img/noise_5V/temperature_24V12A.jpg) | 72.8          | 1.456     |![capture](assets/img/noise_5V/DS2_QuickPrint58.png)|![capture](assets/img/noise_5V/DS2_QuickPrint59.png)|
-| 48                | 0.4         | [60.1](assets/img/noise_5V/temperature_48V04A.jpg) | 127.2         | 2.544     |![capture](assets/img/noise_5V/DS2_QuickPrint60.png)|![capture](assets/img/noise_5V/DS2_QuickPrint61.png)|
+| Input Voltage | No Load | 50 mA | 500 mA | 1 A |
+|---------------|---------|-------|--------|-----|
+| 10V           | mV (%) | mV (%) | mV (%) | mV (%) |
+| 20V           | mV (%) | mV (%) | mV (%) | mV (%) |
+| 48V           | mV (%) | mV (%) | mV (%) | mV (%) |
