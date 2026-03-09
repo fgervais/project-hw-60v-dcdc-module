@@ -613,6 +613,18 @@
 		)
 	)
 	(junction
+		(at 140.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "057fe9ab-b917-4451-92f9-37d1cf442499")
+	)
+	(junction
+		(at 116.84 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a3b7009-0a95-453a-ba7d-b3c4bc08dced")
+	)
+	(junction
 		(at 140.97 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -661,12 +673,6 @@
 		(uuid "73a9c2d0-ad88-4d97-b7b9-1e56082778fe")
 	)
 	(junction
-		(at 140.97 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9847319e-a154-4934-abbe-c0f12827632a")
-	)
-	(junction
 		(at 116.84 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -701,6 +707,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4152b35-587e-4929-a92a-f93522672751")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.29) (xy 116.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c4e53b-8da6-467a-afab-d08b25a3f9e0")
 	)
 	(wire
 		(pts
@@ -794,6 +810,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 49.53) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e341d6-3a87-4f6b-ac35-325fccbea40b")
+	)
+	(wire
+		(pts
 			(xy 50.8 49.53) (xy 78.74 49.53)
 		)
 		(stroke
@@ -814,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 49.53) (xy 140.97 49.53)
+			(xy 96.52 49.53) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -851,6 +877,16 @@
 			(type default)
 		)
 		(uuid "5fde9e35-9c50-4912-9e64-344351b858b9")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 140.97 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610f4009-5f3b-4b3f-8af6-79c2083e3259")
 	)
 	(wire
 		(pts
@@ -904,23 +940,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 36.83) (xy 124.46 41.91)
+			(xy 116.84 48.26) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71c6e525-7094-402c-884f-21b4a4f199b0")
-	)
-	(wire
-		(pts
-			(xy 124.46 41.91) (xy 140.97 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77cf9ca8-6174-45a9-aa35-60cfcc1244f2")
+		(uuid "70eef20c-1bbb-438d-8442-28c8fb31b78d")
 	)
 	(wire
 		(pts
@@ -974,6 +1000,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 36.83) (xy 110.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e1cbe5-3f57-4be0-a186-7be9bcfdd8ba")
+	)
+	(wire
+		(pts
 			(xy 140.97 49.53) (xy 160.02 49.53)
 		)
 		(stroke
@@ -1001,16 +1037,6 @@
 			(type default)
 		)
 		(uuid "9c310a34-be5b-4545-91ce-1c368bf39c6f")
-	)
-	(wire
-		(pts
-			(xy 106.68 36.83) (xy 124.46 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a59fae5f-a11c-4270-b90b-296c727b32fd")
 	)
 	(wire
 		(pts
@@ -1054,16 +1080,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 41.91) (xy 140.97 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c48a6822-deb0-4a17-975f-0b523168b011")
-	)
-	(wire
-		(pts
 			(xy 116.84 26.67) (xy 116.84 27.94)
 		)
 		(stroke
@@ -1071,6 +1087,16 @@
 			(type default)
 		)
 		(uuid "c4cc770c-369f-49f3-a51a-8020fcbc4ee7")
+	)
+	(wire
+		(pts
+			(xy 116.84 41.91) (xy 116.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80986dd-9c9c-4179-9bf4-2215f5ee72f9")
 	)
 	(wire
 		(pts
@@ -1104,6 +1130,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 41.91) (xy 137.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ffac8d-5037-4e44-bb62-ca8d587067fb")
+	)
+	(wire
+		(pts
 			(xy 50.8 31.75) (xy 50.8 36.83)
 		)
 		(stroke
@@ -1132,17 +1168,6 @@
 		)
 		(uuid "f5dd4f90-bebb-47d8-bd45-1704a3a38646")
 	)
-	(text "Just one of these 10uF entry capacitors seem be enough\naccording to the datasheet."
-		(exclude_from_sim no)
-		(at 36.83 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f4b71ba-231b-4198-88c9-c807ef70952e")
-	)
 	(text "Vin max = 60V\nVout max = 30V"
 		(exclude_from_sim no)
 		(at 108.204 18.288 0)
@@ -1153,6 +1178,26 @@
 			(justify left)
 		)
 		(uuid "c2cdcb04-afa4-45f2-b6b5-03e47cb66560")
+	)
+	(label "FB"
+		(at 137.16 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59a53105-a9ca-4f38-8d7b-e79e1a7aebde")
+	)
+	(label "FB"
+		(at 110.49 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fbb2959-5ae6-4bb7-bd1f-0ed316203627")
 	)
 	(hierarchical_label "Vout"
 		(shape output)
@@ -1362,7 +1407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT:TSOT-23-6"
+		(property "Footprint" "SOT:TSOT-23-6_Tight"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -1449,7 +1494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "SMD:C_1210_3225Metric_Tight"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -1566,6 +1611,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 116.84 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5ead751-9215-4d17-8578-174cfcb7dd3a")
+		(property "Reference" "R4"
+			(at 119.38 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Rsnub"
+			(at 119.38 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52738fad-3f47-4bc2-89bc-b16c1a295e68")
+		)
+		(pin "2"
+			(uuid "b9eb6190-7dc4-4f13-a897-573d37e53347")
+		)
+		(instances
+			(project "project-hw-60v-dcdc"
+				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba/2aa74d1e-b615-4866-a6e6-81b2501e58da"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 78.74 40.64 0)
 		(unit 1)
@@ -1592,7 +1707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "SMD:C_0603_1608Metric_Tight"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -1737,7 +1852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "SMD:C_0603_1608Metric_Tight"
 			(at 116.84 30.48 0)
 			(effects
 				(font
@@ -1812,7 +1927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "SMD:C_1210_3225Metric_Tight"
 			(at 50.8 39.37 0)
 			(effects
 				(font
@@ -1887,7 +2002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD:0603_1608Metric_DNI_NoPaste"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 38.1 0)
 			(effects
 				(font
@@ -1930,6 +2045,76 @@
 			(project ""
 				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba/2aa74d1e-b615-4866-a6e6-81b2501e58da"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead478f8-c50a-4aad-853e-7417352ff934")
+		(property "Reference" "C7"
+			(at 119.38 38.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Csnub"
+			(at 119.38 40.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 116.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54cc716d-8f12-4c9f-9726-b8f009f6a2fd")
+		)
+		(pin "1"
+			(uuid "eec77768-a18a-49a1-b8be-cd5268cc7032")
+		)
+		(instances
+			(project "project-hw-60v-dcdc"
+				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba/2aa74d1e-b615-4866-a6e6-81b2501e58da"
+					(reference "C7")
 					(unit 1)
 				)
 			)

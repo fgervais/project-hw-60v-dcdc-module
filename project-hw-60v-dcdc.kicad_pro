@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 1.05
+          "height": 0.8,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -606,10 +606,6 @@
     [
       "bf513276-35b6-4c64-961b-f9ab0be6dcba",
       "Root"
-    ],
-    [
-      "dde5d689-4319-409d-aa78-75221c87ecc9",
-      "Reverse Polarity Protection"
     ],
     [
       "2aa74d1e-b615-4866-a6e6-81b2501e58da",

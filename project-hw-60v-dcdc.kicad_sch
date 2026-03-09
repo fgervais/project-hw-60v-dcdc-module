@@ -336,41 +336,15 @@
 		(color 0 0 0 0)
 		(uuid "bfce7759-9fcf-4004-9e32-42e673e60e1c")
 	)
-	(junction
-		(at 59.69 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc6bb84e-8bc8-47c4-85f1-896e28d207ff")
-	)
 	(wire
 		(pts
-			(xy 88.9 27.94) (xy 114.3 27.94)
+			(xy 50.8 27.94) (xy 76.2 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "105e3612-c7f9-4fbb-a4d0-095f9d3932a5")
-	)
-	(wire
-		(pts
-			(xy 59.69 27.94) (xy 59.69 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d4ae480-d00a-4424-ae7a-6bb7d4ab847c")
-	)
-	(wire
-		(pts
-			(xy 71.12 33.02) (xy 71.12 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29faed6a-95a0-411a-842a-393ab39966eb")
 	)
 	(wire
 		(pts
@@ -414,16 +388,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 33.02) (xy 76.2 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98902940-04db-4852-a9d4-c4ff6d00d1bc")
-	)
-	(wire
-		(pts
 			(xy 31.75 35.56) (xy 33.02 35.56)
 		)
 		(stroke
@@ -434,7 +398,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 33.02) (xy 114.3 33.02)
+			(xy 73.66 33.02) (xy 76.2 33.02)
 		)
 		(stroke
 			(width 0)
@@ -464,16 +428,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 27.94) (xy 76.2 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e47dd0-6f8b-4205-9838-0aa6e057105d")
-	)
-	(wire
-		(pts
 			(xy 30.48 26.67) (xy 30.48 27.94)
 		)
 		(stroke
@@ -484,17 +438,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 27.94) (xy 59.69 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e90c3c8b-8f5c-4c46-ab59-a07cd61e12fa")
-	)
-	(wire
-		(pts
-			(xy 111.76 33.02) (xy 111.76 38.1)
+			(xy 73.66 33.02) (xy 73.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -503,74 +447,8 @@
 		(uuid "fbae0ea0-0f09-4c66-9458-088417ac447d")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 59.69 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05c88473-789d-4aa8-a7f6-1ccc09545f2b")
-		(property "Reference" "#FLG03"
-			(at 59.69 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 59.69 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e10d4d2-2f97-4d9b-9cae-c46cd942761b")
-		)
-		(instances
-			(project "project-hw-60v-dcdc"
-				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 119.38 27.94 0)
+		(at 81.28 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -579,7 +457,7 @@
 		(fields_autoplaced yes)
 		(uuid "10363607-640b-4b13-9151-c412958ad750")
 		(property "Reference" "J3"
-			(at 120.65 27.9399 0)
+			(at 82.55 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +466,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 118.745 30.48 0)
+			(at 80.645 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,8 +474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_SolderPad:EdgePad_1x1"
-			(at 119.38 27.94 0)
+		(property "Footprint" "Connector_SolderPad:EdgePad_1x1_Short"
+			(at 81.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,7 +484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 27.94 0)
+			(at 81.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,7 +493,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 119.38 27.94 0)
+			(at 81.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_SolderPad:EdgePad_1x1"
+		(property "Footprint" "Connector_SolderPad:EdgePad_1x1_Short"
 			(at 22.86 27.94 0)
 			(effects
 				(font
@@ -728,7 +606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_SolderPad:EdgePad_1x1"
+		(property "Footprint" "Connector_SolderPad:EdgePad_1x1_Short"
 			(at 22.86 33.02 0)
 			(effects
 				(font
@@ -836,7 +714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 38.1 0)
+		(at 73.66 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -845,7 +723,7 @@
 		(fields_autoplaced yes)
 		(uuid "39034231-58c2-44d3-984b-05de42e2ef85")
 		(property "Reference" "#PWR03"
-			(at 111.76 44.45 0)
+			(at 73.66 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 43.18 0)
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,72 +845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 71.12 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46baf85c-fe08-4f25-a707-4c418295b27e")
-		(property "Reference" "#PWR02"
-			(at 71.12 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c83fc789-3dd6-4e8b-b16e-479464380d0c")
-		)
-		(instances
-			(project "project-hw-60v-dcdc"
-				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 30.48 26.67 0)
 		(unit 1)
@@ -1100,7 +912,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 119.38 33.02 0)
+		(at 81.28 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1109,7 +921,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4631114-2b43-4685-afe4-0f3ce10f1c7b")
 		(property "Reference" "J4"
-			(at 120.65 33.0199 0)
+			(at 82.55 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +930,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 118.745 35.56 0)
+			(at 80.645 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,7 +939,7 @@
 			)
 		)
 		(property "Footprint" "Connector_SolderPad:EdgePad_1x1"
-			(at 119.38 33.02 0)
+			(at 81.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 33.02 0)
+			(at 81.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +957,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 119.38 33.02 0)
+			(at 81.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +978,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 25.4)
+		(at 38.1 25.4)
 		(size 12.7 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1178,7 +990,7 @@
 		)
 		(uuid "2aa74d1e-b615-4866-a6e6-81b2501e58da")
 		(property "Sheetname" "LMR516x5 Converter"
-			(at 76.2 24.6884 0)
+			(at 38.1 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +999,7 @@
 			)
 		)
 		(property "Sheetfile" "lmr516x5_converter.kicad_sch"
-			(at 76.2 36.1446 0)
+			(at 38.1 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1008,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 76.2 27.94 180)
+			(at 38.1 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1018,7 @@
 			(uuid "9bc219ee-1d95-4eb5-981c-1c25ce8404a2")
 		)
 		(pin "GND" input
-			(at 76.2 33.02 180)
+			(at 38.1 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1028,7 @@
 			(uuid "b040f783-be26-4b6a-85cb-38b6916acef0")
 		)
 		(pin "Vout" output
-			(at 88.9 27.94 0)
+			(at 50.8 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,74 +1041,6 @@
 			(project "project-hw-60v-dcdc"
 				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 38.1 25.4)
-		(size 13.97 10.16)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dde5d689-4319-409d-aa78-75221c87ecc9")
-		(property "Sheetname" "Reverse Polarity Protection"
-			(at 36.322 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "reverse_polarity_protection.kicad_sch"
-			(at 17.018 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "OUT" output
-			(at 52.07 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "20568ccb-60ec-4cc2-bee5-79b539303164")
-		)
-		(pin "GND" input
-			(at 38.1 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3abe4e10-6cd2-4bb0-ae82-21b5915a2243")
-		)
-		(pin "IN" input
-			(at 38.1 27.94 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "74f5be20-3d6c-4e01-9337-1abc9e01cdb6")
-		)
-		(instances
-			(project "project-hw-60v-dcdc"
-				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
-					(page "2")
 				)
 			)
 		)
