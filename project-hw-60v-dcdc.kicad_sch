@@ -398,16 +398,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 76.2 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4db8d55-477b-4a54-b67b-b9bfbf8682be")
-	)
-	(wire
-		(pts
 			(xy 30.48 27.94) (xy 38.1 27.94)
 		)
 		(stroke
@@ -435,16 +425,6 @@
 			(type default)
 		)
 		(uuid "e7d18b86-c486-471a-b9d0-5e465002de96")
-	)
-	(wire
-		(pts
-			(xy 73.66 33.02) (xy 73.66 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbae0ea0-0f09-4c66-9458-088417ac447d")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
@@ -714,72 +694,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39034231-58c2-44d3-984b-05de42e2ef85")
-		(property "Reference" "#PWR03"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "963c3002-ef0e-42c8-9683-b1871256d26e")
-		)
-		(instances
-			(project "project-hw-60v-dcdc"
-				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 33.02 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -905,73 +819,6 @@
 			(project "project-hw-60v-dcdc"
 				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 81.28 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4631114-2b43-4685-afe4-0f3ce10f1c7b")
-		(property "Reference" "J4"
-			(at 82.55 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 80.645 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_SolderPad:EdgePad_1x1"
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "602f1398-f8a6-474a-833a-369cad33b6d7")
-		)
-		(instances
-			(project "project-hw-60v-dcdc"
-				(path "/bf513276-35b6-4c64-961b-f9ab0be6dcba"
-					(reference "J4")
 					(unit 1)
 				)
 			)

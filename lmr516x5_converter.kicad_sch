@@ -1612,7 +1612,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 45.72 0)
+		(at 116.84 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1621,7 +1621,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5ead751-9215-4d17-8578-174cfcb7dd3a")
 		(property "Reference" "R4"
-			(at 119.38 44.4499 0)
+			(at 119.38 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 			)
 		)
 		(property "Value" "Rsnub"
-			(at 119.38 46.9899 0)
+			(at 119.38 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1639,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.84 45.72 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 45.72 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1657,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 116.84 45.72 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2052,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 116.84 39.37 0)
+		(at 116.84 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2061,7 +2061,7 @@
 		(fields_autoplaced yes)
 		(uuid "ead478f8-c50a-4aad-853e-7417352ff934")
 		(property "Reference" "C7"
-			(at 119.38 38.1062 0)
+			(at 119.38 44.4562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +2070,7 @@
 			)
 		)
 		(property "Value" "Csnub"
-			(at 119.38 40.6462 0)
+			(at 119.38 46.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 116.84 39.37 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 39.37 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2097,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 116.84 39.37 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
