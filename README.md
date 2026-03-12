@@ -102,10 +102,6 @@
 
 ### Switching converter analysis (LMR51625)
 
-![Overview](assets/img/hack1/sw_node_overview.jpg)
-
-50 ohms series termination at the SW node.
-
 ![Closeup](assets/img/hack1/sw_node_closeup.jpg)
 
 #### Switch node
