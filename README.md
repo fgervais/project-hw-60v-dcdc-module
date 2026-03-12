@@ -29,6 +29,8 @@
 
 ### Output (5V, 2x 10uF 50V output capacitors)
 
+![Probe Setup](assets/img/output_5V_10uF_50V/probe_setup.jpg)
+
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
 | 10V           | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint129.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint130.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint131.png) | ![Waveform](assets/img/output_5V_10uF_50V/input_10V/DS2_QuickPrint133.png) |
@@ -50,6 +52,8 @@
 | 48V           | 49.20 mV (0.98%) | 49.20 mV (0.98%) | 45.20 mV (0.90%) | 40.40 mV (0.81%) |
 
 ### Output (5V, 2x 22uF 16V output capacitors)
+
+![Probe Setup](assets/img/output_5V_22uF_16V/probe_setup.jpg)
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
