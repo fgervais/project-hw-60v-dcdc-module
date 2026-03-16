@@ -114,6 +114,8 @@
 
 ### Output (5V, LMR51625, 2x 22uF 16V output capacitors)
 
+![Probe Setup](assets/img/hack1/output_probe_setup.jpg)
+
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
 | 10V           | ![Waveform](assets/img/hack1/input_10V/DS2_QuickPrint1.png) | ![Waveform](assets/img/hack1/input_10V/DS2_QuickPrint2.png) | ![Waveform](assets/img/hack1/input_10V/DS2_QuickPrint3.png) | ![Waveform](assets/img/hack1/input_10V/DS2_QuickPrint4.png) |
