@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 3 -2.25 180)
+			(at 2.8 -1.5 180)
 			(layer "F.Fab")
 			(uuid "12fa2e5b-b88c-4096-8d27-0c99a1ad6e6f")
 			(effects
@@ -385,7 +385,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at 0.9 -1.1 -90)
 			(layer "F.Fab")
 			(uuid "58fba7ad-d977-4ca3-9851-529a8a3f0ee6")
 			(effects
@@ -600,7 +600,7 @@
 			)
 		)
 		(property "Value" "10uF 100V"
-			(at 0 2.3 360)
+			(at -4.9 6 360)
 			(layer "F.Fab")
 			(uuid "06339408-67b6-47f5-b7e3-37765c8730ca")
 			(effects
@@ -814,7 +814,7 @@
 			)
 		)
 		(property "Value" "LMR516x5"
-			(at 0 3 0)
+			(at 0 -7 180)
 			(layer "F.Fab")
 			(uuid "6e7d6431-d95f-4528-923c-6e7dce9d6b67")
 			(effects
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 0 3.5 90)
+			(at -2.85 1.8 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c142f2bb-4af2-445d-9aaf-f8b0a2bcaa42")
@@ -1462,6 +1462,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "93509d75-2386-40b2-afcb-215429bfd7c9")
 			(effects
 				(font
@@ -1533,7 +1534,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 0 3.5 0)
+			(at -2.75 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "34aa4c36-42c8-4fd5-8c8d-c5cdab500f5a")
@@ -1592,6 +1593,7 @@
 			(at 0 5 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "26125225-f622-4b51-8113-308f9b5b5554")
 			(effects
 				(font
@@ -1664,7 +1666,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 90)
+			(at 2 -0.2 180)
 			(layer "F.Fab")
 			(uuid "fad59783-a6c7-46fe-badf-2a582b37ae21")
 			(effects
@@ -1881,7 +1883,7 @@
 			)
 		)
 		(property "Value" "Csnub"
-			(at 0 1.16 360)
+			(at 0.2 -2.7 90)
 			(layer "F.Fab")
 			(uuid "1e7781ec-b84a-45c8-b019-ac7d65dedc60")
 			(effects
@@ -2096,7 +2098,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 3.75 -2.25 90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "45aa1496-83d1-4a73-92b6-1a39e299ba7d")
@@ -2237,6 +2239,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "95277399-a03d-4512-85bc-e0cf1b6784da")
 			(effects
 				(font
@@ -2297,7 +2300,7 @@
 			)
 		)
 		(property "Value" "1uF 100V"
-			(at 0 1.43 0)
+			(at -2.8 -0.7 90)
 			(layer "F.Fab")
 			(uuid "aca60d62-abae-404f-9387-8350ee0fd98d")
 			(effects
@@ -2510,7 +2513,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 0 3.5 180)
+			(at -2.75 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "37dd7ae6-f934-4b39-b967-97231933982a")
@@ -2569,6 +2572,7 @@
 			(at 0 5 180)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "65d1fa19-5e5c-4057-bc2b-3a5b18f5481b")
 			(effects
 				(font
@@ -2641,7 +2645,7 @@
 			)
 		)
 		(property "Value" "10uF 100V"
-			(at 0 2.3 0)
+			(at -0.6 1.5 180)
 			(layer "F.Fab")
 			(uuid "2e4a74ef-6823-49bb-bf5d-3e4eead7a7e0")
 			(effects
@@ -2855,7 +2859,7 @@
 			)
 		)
 		(property "Value" "Rsnub"
-			(at 0 1.17 360)
+			(at 1.15 0.8 90)
 			(layer "F.Fab")
 			(uuid "6e7d821e-6fa1-4b8d-9848-4b0945167a33")
 			(effects
