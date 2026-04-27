@@ -156,6 +156,16 @@
 
 ![Frequency](assets/img/v2_0_0/sw_node_6V_500mA.png)
 
+#### Switch node (Snubber 5.1Ω/100pF)
+
+![Closeup](assets/img/snubber_5_1_100pF/sw_node_closeup.jpg)
+
+| Input Voltage | Rising edge |
+|---------------|-------------|
+| 10V           | ![Waveform](assets/img/snubber_5_1_100pF/DS2_QuickPrint5.png) |
+| 20V           | ![Waveform](assets/img/snubber_5_1_100pF/DS2_QuickPrint6.png) |
+| 48V           | ![Waveform](assets/img/snubber_5_1_100pF/DS2_QuickPrint7.png) |
+
 ### Output (5V, v2.0.0, 2x 22uF 16V output capacitors)
 
 ![Probe Setup](assets/img/v2_0_0/output_probe_setup.jpg)
