@@ -10,7 +10,7 @@
   - [Output (5V, 2x 22uF 16V output capacitors)](#output-5V-lmr51625-2x-22uF-16V-output-capacitors)
 - [PCB v2.0.0](#pcb-v200)
   - [Switching converter analysis](#switching-converter-analysis-v200)
-  - [Output (5V, 2x 22uF 16V output capacitors)](#output-5V-v200-2x-22uF-16V-output-capacitors)
+  - [Output (5V, Snubber 5.1Ω/100pF)](#output-5v-v200-snubber-51ω100pf)
 
 ## PCB v1.0.0-5-g07f53f4
 
@@ -166,15 +166,15 @@
 | 20V           | ![Waveform](assets/img/snubber_5_1_100pF/DS2_QuickPrint6.png) |
 | 48V           | ![Waveform](assets/img/snubber_5_1_100pF/DS2_QuickPrint7.png) |
 
-### Output (5V, v2.0.0, 2x 22uF 16V output capacitors)
+### Output (5V, v2.0.0, Snubber 5.1Ω/100pF)
 
 ![Probe Setup](assets/img/v2_0_0/output_probe_setup.jpg)
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
-| 10V           | ![Waveform](assets/img/v2_0_0/input_10V/DS2_QuickPrint1.png) | ![Waveform](assets/img/v2_0_0/input_10V/DS2_QuickPrint2.png) | ![Waveform](assets/img/v2_0_0/input_10V/DS2_QuickPrint3.png) | ![Waveform](assets/img/v2_0_0/input_10V/DS2_QuickPrint4.png) |
-| 20V           | ![Waveform](assets/img/v2_0_0/input_20V/DS2_QuickPrint5.png) | ![Waveform](assets/img/v2_0_0/input_20V/DS2_QuickPrint6.png) | ![Waveform](assets/img/v2_0_0/input_20V/DS2_QuickPrint7.png) | ![Waveform](assets/img/v2_0_0/input_20V/DS2_QuickPrint8.png) |
-| 48V           | ![Waveform](assets/img/v2_0_0/input_48V/DS2_QuickPrint9.png) | ![Waveform](assets/img/v2_0_0/input_48V/DS2_QuickPrint10.png) | ![Waveform](assets/img/v2_0_0/input_48V/DS2_QuickPrint11.png) | ![Waveform](assets/img/v2_0_0/input_48V/DS2_QuickPrint12.png) |
+| 10V           | ![Waveform](assets/img/snubber_5_1_100pF/input_10V/DS2_QuickPrint1.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V/DS2_QuickPrint2.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V/DS2_QuickPrint3.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V/DS2_QuickPrint4.png) |
+| 20V           | ![Waveform](assets/img/snubber_5_1_100pF/input_20V/DS2_QuickPrint5.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V/DS2_QuickPrint7.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V/DS2_QuickPrint8.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V/DS2_QuickPrint9.png) |
+| 48V           | ![Waveform](assets/img/snubber_5_1_100pF/input_48V/DS2_QuickPrint10.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V/DS2_QuickPrint11.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V/DS2_QuickPrint12.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V/DS2_QuickPrint13.png) |
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
