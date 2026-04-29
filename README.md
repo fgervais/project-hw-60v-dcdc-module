@@ -178,9 +178,9 @@
 
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
-| 10V           | ![Waveform](assets/img/v2_0_0/input_10V_noise/DS2_QuickPrint1.png) | ![Waveform](assets/img/v2_0_0/input_10V_noise/DS2_QuickPrint2.png) | ![Waveform](assets/img/v2_0_0/input_10V_noise/DS2_QuickPrint3.png) | ![Waveform](assets/img/v2_0_0/input_10V_noise/DS2_QuickPrint4.png) |
-| 20V           | ![Waveform](assets/img/v2_0_0/input_20V_noise/DS2_QuickPrint5.png) | ![Waveform](assets/img/v2_0_0/input_20V_noise/DS2_QuickPrint6.png) | ![Waveform](assets/img/v2_0_0/input_20V_noise/DS2_QuickPrint7.png) | ![Waveform](assets/img/v2_0_0/input_20V_noise/DS2_QuickPrint8.png) |
-| 48V           | ![Waveform](assets/img/v2_0_0/input_48V_noise/DS2_QuickPrint9.png) | ![Waveform](assets/img/v2_0_0/input_48V_noise/DS2_QuickPrint10.png) | ![Waveform](assets/img/v2_0_0/input_48V_noise/DS2_QuickPrint11.png) | ![Waveform](assets/img/v2_0_0/input_48V_noise/DS2_QuickPrint12.png) |
+| 10V           | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint1.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint2.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint3.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint4.png) |
+| 20V           | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint5.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint6.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint7.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint8.png) |
+| 48V           | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint9.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint10.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint11.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint12.png) |
 
 #### Noise
 
