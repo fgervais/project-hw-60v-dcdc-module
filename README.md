@@ -11,6 +11,7 @@
 - [PCB v2.0.0](#pcb-v200)
   - [Switching converter analysis](#switching-converter-analysis-v200)
   - [Output (5V, Snubber 5.1Ω/100pF)](#output-5v-v200-snubber-51ω100pf)
+  - [Output (5V, Snubber 5.1Ω/100pF, 3.3uF)](#output-5v-v200-snubber-51ω100pf-33uf)
 
 ## PCB v1.0.0-5-g07f53f4
 
@@ -181,3 +182,15 @@
 | 10V           | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint1.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint2.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint3.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_10V_noise/DS2_QuickPrint4.png) |
 | 20V           | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint5.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint6.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint7.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_20V_noise/DS2_QuickPrint8.png) |
 | 48V           | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint9.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint10.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint11.png) | ![Waveform](assets/img/snubber_5_1_100pF/input_48V_noise/DS2_QuickPrint12.png) |
+
+### Output (5V, v2.0.0, Snubber 5.1Ω/100pF, 3.3uF)
+
+| Input Voltage | No Load | 50 mA | 500 mA | 1 A |
+|---------------|---------|-------|--------|-----|
+| 10V           | ![Waveform](assets/img/inductor_3_3uH/input_10V/DS2_QuickPrint1.png) | ![Waveform](assets/img/inductor_3_3uH/input_10V/DS2_QuickPrint2.png) | ![Waveform](assets/img/inductor_3_3uH/input_10V/DS2_QuickPrint4.png) | ![Waveform](assets/img/inductor_3_3uH/input_10V/DS2_QuickPrint5.png) |
+| 20V           | ![Waveform](assets/img/inductor_3_3uH/input_20V/DS2_QuickPrint6.png) | ![Waveform](assets/img/inductor_3_3uH/input_20V/DS2_QuickPrint7.png) | ![Waveform](assets/img/inductor_3_3uH/input_20V/DS2_QuickPrint8.png) | ![Waveform](assets/img/inductor_3_3uH/input_20V/DS2_QuickPrint9.png) |
+| 48V           | ![Waveform](assets/img/inductor_3_3uH/input_48V/DS2_QuickPrint10.png) | ![Waveform](assets/img/inductor_3_3uH/input_48V/DS2_QuickPrint11.png) | ![Waveform](assets/img/inductor_3_3uH/input_48V/DS2_QuickPrint12.png) | ![Waveform](assets/img/inductor_3_3uH/input_48V/DS2_QuickPrint13.png) |
+
+| Input Voltage | No Load | 50 mA | 500 mA | 1 A |
+|---------------|---------|-------|--------|-----|
+| 10V           | ![Waveform](assets/img/inductor_3_3uH/input_10V_noise/DS2_QuickPrint14.png) | ![Waveform](assets/img/inductor_3_3uH/input_10V_noise/DS2_QuickPrint15.png) | ![Waveform](assets/img/inductor_3_3uH/input_10V_noise/DS2_QuickPrint16.png) | ![Waveform](assets/img/inductor_3_3uH/input_10V_noise/DS2_QuickPrint17.png) |
